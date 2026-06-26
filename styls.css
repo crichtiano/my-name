@@ -99,7 +99,7 @@ p {
     }
 
     100% {
-        left: 39%;
+        left: 41%;
         top: 45%;
     }
 }
@@ -140,7 +140,7 @@ p {
 
 @keyframes p4 {
     0% {
-        bottom: -10%;
+       top: -10%;
         animation-timing-function: cubic-bezier(0.67, -0.06, 0.94, 0.94);
     }
     
@@ -152,7 +152,7 @@ p {
 
     100% {
         right: 49.8%;
-        bottom: 47.5%;
+        top: 45%;
     }
 }
 
@@ -175,7 +175,7 @@ p {
 
 @keyframes p6 {
     0% {
-        bottom: -10%;
+        top: -10%;
         animation-timing-function: cubic-bezier(0.67, -0.06, 0.94, 0.94);
     }
 
@@ -186,6 +186,6 @@ p {
 
     100% {
         right: 44.9%;
-        bottom: 47.5%;
+        top: 45%;
     }
 }
