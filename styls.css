@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation: linene 3s cubic-bezier(0.67, -0.06, 0.94, 0.94) infinite alternate-reverse;
+  background-image: linear-gradient(90deg, rgb(51, 204, 191) 50%, rgb(251, 0, 255) 50%);
+  position:fixed;
+  opacity:.5;
+}
+
+.bg2 {
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+@keyframes linene {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+div {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+p {
+    font-size: 90px;
+}
+
+.p1 {
+    animation: p1 1s forwards;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.p2 {
+    color: rgb(255, 255, 255);
+    animation: p2 5s forwards;
+    position: absolute;
+}
+
+.p3 {
+    color: rgb(255, 255, 255);
+    animation: p3 3s forwards;
+    position: absolute;
+}
+
+
+.p4 {
+    color: rgb(255, 255, 255);
+    animation: p4 8s forwards;
+    position: absolute;
+}
+
+.p5 {
+    color: rgb(255, 255, 255);
+    animation: p5 4s forwards;
+    position: absolute;
+}
+
+.p6 {
+    color: rgb(255, 255, 255);
+    animation: p6 8s forwards;
+    position: absolute;
+}
+
+@keyframes p1 {
+    0% {
+        left: -10%;
+        animation-timing-function: cubic-bezier(0.67, -0.06, 0.94, 0.94);
+    }
+
+    80% {
+        transform: rotatex(360deg);
+        scale: 3;
+    }
+
+    100% {
+        left: 39%;
+        top: 45%;
+    }
+}
+
+@keyframes p2 {
+    0% {
+        right: -10%;
+        animation-timing-function: cubic-bezier(0.67, -0.06, 0.94, 0.94);
+    }
+
+    80% {
+        transform: rotatex(360deg);
+        scale: 1;
+    }
+
+    100% {
+        right: 53.3%;
+        top: 45%;
+    }
+}
+
+@keyframes p3 {
+    0% {
+        top: -10%;
+        animation-timing-function: cubic-bezier(0.67, -0.06, 0.94, 0.94);
+    }
+
+    80% {
+        transform: rotatex(360deg);
+        scale: 4;
+    }
+
+    100% {
+        right: 51.5%;
+        top: 45%;
+    }
+}
+
+@keyframes p4 {
+    0% {
+        bottom: -10%;
+        animation-timing-function: cubic-bezier(0.67, -0.06, 0.94, 0.94);
+    }
+
+    80% {
+        transform: rotatex(360deg);
+        scale: 3;
+    }
+
+    100% {
+        right: 49.8%;
+        bottom: 42.4%;
+    }
+}
+
+@keyframes p5 {
+    0% {
+        top: -10%;
+        animation-timing-function: cubic-bezier(0.67, -0.06, 0.94, 0.94);
+    }
+
+    80% {
+        transform: rotatex(360deg);
+        scale: 1.5;
+    }
+
+    100% {
+        right: 47.6%;
+        top: 45%;
+    }
+}
+
+@keyframes p6 {
+    0% {
+        bottom: -10%;
+        animation-timing-function: cubic-bezier(0.67, -0.06, 0.94, 0.94);
+    }
+
+    80% {
+        transform: rotatex(360deg);
+        scale: 4;
+    }
+
+    100% {
+        right: 44.9%;
+        bottom: 42.4%;
+    }
+}
