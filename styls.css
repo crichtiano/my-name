@@ -37,7 +37,7 @@ body {
   }
 }
 div {
-    position: fixed;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,6 +143,7 @@ p {
         bottom: -10%;
         animation-timing-function: cubic-bezier(0.67, -0.06, 0.94, 0.94);
     }
+    
 
     80% {
         transform: rotatex(360deg);
@@ -151,7 +152,7 @@ p {
 
     100% {
         right: 49.8%;
-        bottom: 42.4%;
+        bottom: 47.5%;
     }
 }
 
@@ -185,6 +186,6 @@ p {
 
     100% {
         right: 44.9%;
-        bottom: 42.4%;
+        bottom: 47.5%;
     }
 }
